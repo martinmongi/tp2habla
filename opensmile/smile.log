@@ -1,0 +1,23 @@
+[ 15.10.2014 - 15:41:16 ]
+    (MSG) [2] in SMILExtract : openSMILE starting!
+[ 15.10.2014 - 15:41:16 ]
+    (MSG) [2] in SMILExtract : config file is: /home/ith50/opensmile/config/IS10_paraling.conf
+[ 15.10.2014 - 15:41:16 ]
+    (MSG) [2] in cComponentManager : successfully registered 93 component types.
+[ 15.10.2014 - 15:41:16 ]
+    (MSG) [2] in configManager : reading config file '/home/ith50/opensmile/config/IS10_paraling.conf'
+[ 15.10.2014 - 15:41:16 ]
+    (MSG) [2] in configManager : reading config file 'arff_targets.conf'
+[ 15.10.2014 - 15:41:16 ]
+    (MSG) [2] in configManager : config file 'arff_targets.conf' not found, trying to open '/home/ith50/opensmile/config/arff_targets.conf'.
+[ 15.10.2014 - 15:41:16 ]
+    (MSG) [2] in instance 'res' : adjusting resampleRatio from 0.249433 to 0.249320 to match next integer frame size! (targetFs* = 10995.013599)
+[ 15.10.2014 - 15:41:16 ]
+    (MSG) [2] in instance 'arffsink' : writing ARFF header (1582 features)...
+[ 15.10.2014 - 15:41:16 ]
+    (MSG) [2] in cComponentManager : successfully finished createInstances
+                                 (31 component instances were finalised, 1 data memories were finalised)
+[ 15.10.2014 - 15:41:16 ]
+    (MSG) [2] in cComponentManager : starting single thread processing loop
+[ 15.10.2014 - 15:41:17 ]
+    (MSG) [2] in cComponentManager : Processing finished! System ran for 369 ticks.
