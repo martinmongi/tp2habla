@@ -1,6 +1,6 @@
-rm ./attribute_extract.log ./attribute_extract.err
+rm attribute_data.arff
 
 for f in ./tp2-dev/*.wav
 do
-	./opensmile/SMILExtract -C ./opensmile/config/IS10_paraling.conf -I "$f" -O "$f".arff >> ./attribute_extract.log 2>> ./attribute_extract.err
+	./opensmile/SMILExtract -C ./opensmile/config/IS10_paraling.conf -I "$f" -O attribute_data.arff > /dev/null 2> /dev/null
 done
