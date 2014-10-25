@@ -1583,7 +1583,7 @@
 @attribute shimmerLocal_sma_de_upleveltime90 numeric
 @attribute F0final__Turn_numOnsets numeric
 @attribute F0final__Turn_duration numeric
-@attribute numeric_class numeric
+@attribute numeric_class {0.0, 1.0}
 
 @data
 
