@@ -25,6 +25,8 @@ mod_data = open("./attribute_data.arff",'w')
 line = raw_data.readline()
 
 while line != "@data\n" and line != "":
+	if line == "@attribute numeric_class numeric\n":
+		line = "@attribute gender {m,f}"
 	mod_data.write(line)
 	line = raw_data.readline()
 
@@ -33,15 +35,14 @@ mod_data.write(line) #@data
 line = raw_data.readline()
 mod_data.write(line) # linea vacia
 
-
-
-
 for f in files:
 	line = raw_data.readline()
 	split_line = line.split(',')
 	split_line[0] = "\'" + f + "\'"
 	if f[4] == 'm':
-		split_line[-1] = '1.0\n'
+		split_line[-1] = 'm\n'
+	elif f[4] == 'f':
+		split_line[-1] = 'f\n'
 	mod_data.write(','.join(split_line))
 
 
